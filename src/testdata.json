@@ -1,0 +1,38 @@
+[
+  {
+    "name":"Potatoes",
+    "quantity": 3
+  },
+  {
+    "name":"Tomatoes",
+    "quantity": 5
+  },
+  {
+    "name":"Beef",
+    "quantity": 23
+  },
+  {
+    "name":"Carrots",
+    "quantity": 99
+  },
+  {
+    "name":"Ketchup",
+    "quantity": 2
+  },
+  {
+    "name":"Pasta",
+    "quantity": 0
+  },
+  {
+    "name":"Rice",
+    "quantity": 66
+  },
+  {
+    "name":"Oranges",
+    "quantity": 46
+  },
+  {
+    "name":"Nuts",
+    "quantity": 12
+  }
+]

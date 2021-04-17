@@ -1,0 +1,18 @@
+.categoryContainer {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	width: 90%;
+	padding: 10px 0px 20px 0px;
+}
+.categoryContainer h2 {
+	font-weight: 900;
+	font-size: 50px;
+	color: rgb(243, 107, 28);
+	text-shadow: 2px 2px 3px rgb(77, 77, 77);
+	margin: 10px 20px;
+}
+.itemsContainer {
+	display: flex;
+	flex-wrap: wrap;
+}

@@ -1,0 +1,88 @@
+.item {
+	display: flex;
+	flex-direction: column;
+	width: 200px;
+	margin: 10px 20px;
+	font-weight: 900;
+	user-select: none;
+}
+.itemName {
+	background-color: rgb(243, 107, 28);
+	text-align: center;
+	color: white;
+	padding: 5px 0px;
+	border-radius: 0px 0px 10px 10px;
+}
+.itemInner {
+	font-size: 40px;
+	width: 200px;
+	height: 150px;
+	display: flex;
+	background-size: cover;
+	background-position: center;
+	border-radius: 20px 20px 0px 0px;
+	color: white;
+	box-shadow: 0px 1px 3px rgb(42, 42, 42);
+	z-index: 2;
+}
+.minus {
+	justify-content: flex-start;
+	padding-left: 5px;
+	position: relative;
+	border-radius: 18px 0px 0px 0px;
+	z-index: 2;
+	line-height: 45px;
+}
+.plus {
+	justify-content: flex-end;
+	padding-right: 5px;
+	position: relative;
+	border-radius: 0px 18px 0px 0px;
+	z-index: 2;
+	line-height: 40px;
+}
+.minus::before {
+	content: '';
+	height: 35px;
+	width: 35px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+	border-radius: 0 50% 0 0;
+	background-color: rgb(35, 189, 236);
+}
+.plus::before {
+	content: '';
+	height: 35px;
+	width: 35px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+	border-radius: 50% 0 0 0;
+	background-color: rgb(35, 189, 236);
+}
+.plus:active {
+	text-shadow: 3px 3px 2px rgb(42, 42, 42);
+	box-shadow: 4px 0px 3px rgb(42, 42, 42);
+}
+.minus:active {
+	text-shadow: 3px 3px 2px rgb(42, 42, 42);
+	box-shadow: -4px 0px 3px rgb(42, 42, 42);
+}
+
+.quantifier {
+	flex-grow: 1;
+	display: flex;
+	align-items: flex-end;
+	text-shadow: 2px 2px 3px black;
+}
+.quantity {
+	font-size: 70px;
+	flex-grow: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-shadow: 2px 2px 3px black;
+}

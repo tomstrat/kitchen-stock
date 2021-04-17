@@ -1,0 +1,97 @@
+[
+  {
+    "category":"Meat",
+    "items":[
+      {
+        "name":"Beef Steak",
+        "quantity": 3,
+        "image": "/images/beef_steak.jpg"
+      },
+      {
+        "name":"Beef Mince",
+        "quantity": 5,
+        "image": "/images/organic_beef_mince_2.jpg"
+      },
+      {
+        "name":"Chicken",
+        "quantity": 23,
+        "image": "/images/chicken.jpg"
+      },
+      {
+        "name":"Bacon",
+        "quantity": 99,
+        "image": "/images/bacon.jpeg"
+      }
+    ]
+  },
+  {
+    "category":"Vegetables",
+    "items":[
+      {
+        "name":"Potatoes",
+        "quantity": 3,
+        "image": "/images/potatoes.jpeg"
+      },
+      {
+        "name":"Tomatoes",
+        "quantity": 5,
+        "image": "/images/tomatoes.jpg"
+      },
+      {
+        "name":"Carrots",
+        "quantity": 23,
+        "image": "/images/carrots.jpg"
+      },
+      {
+        "name":"Leeks",
+        "quantity": 99,
+        "image": "/images/leeks.jpg"
+      },
+      {
+        "name":"Onions",
+        "quantity": 2,
+        "image": "/images/onions.jpg"
+      },
+      {
+        "name":"Garlic",
+        "quantity": 0,
+        "image": "/images/garlic.jpg"
+      },
+      {
+        "name":"Lettuce",
+        "quantity": 66,
+        "image": "/images/lettuce.jpg"
+      },
+      {
+        "name":"Red Onions",
+        "quantity": 46,
+        "image": "/images/redonions.jpg"
+      },
+      {
+        "name":"Ginger",
+        "quantity": 12,
+        "image": "/images/ginger.jpg"
+      }
+    ]
+  },
+  {
+    "category":"Dried",
+    "items":[
+      {
+        "name":"Spaghetti",
+        "quantity": 3,
+        "image": "/images/spaghetti-noodle-500x500.jpg"
+      },
+      {
+        "name":"Fusilli",
+        "quantity": 2,
+        "image": "/images/fusili.jpg"
+      },
+      {
+        "name":"Egg Fried Rice",
+        "quantity": 3,
+        "image": "/images/egg_fried_rice.jpg"
+      }
+    ]
+  }
+]

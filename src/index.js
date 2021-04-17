@@ -1,12 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Category from "./components/Category/category";
 import reportWebVitals from './reportWebVitals';
+import Menu from "./components/Menu/menu";
+import categoryData from "./testdata2.json";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {categoryData.map((cat, key) => {
+      return (
+        <Category title={cat.category} items={cat.items}/>
+      );
+    })}
+    <Menu />
   </React.StrictMode>,
   document.getElementById('root')
 );
